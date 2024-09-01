@@ -28,4 +28,5 @@ end
 
 if node != nil && node['config'] != nil
     include_recipe 'wordpress::post_install'
+    #include_recipe 'wordpress::language_install'
 end
