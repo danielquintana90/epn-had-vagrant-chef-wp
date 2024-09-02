@@ -21,11 +21,11 @@ verifier:
   name: inspec
 
 platforms:
-  # - name: centos-8
-  #   driver:
-  #     provision: true
-  #     box: generic/centos8
-  #     vm_hostname: db.epnewman.edu.pe
+  - name: centos-8
+    driver:
+      provision: true
+      box: generic/centos8
+      vm_hostname: db.epnewman.edu.pe
   - name: ubuntu-20.04
     driver:
       provision: true

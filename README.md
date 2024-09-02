@@ -158,10 +158,10 @@ Una vez que se hayan levantado todas las VMs podrás acceder a Wordpress en la p
 
 ## Unit tests
 
-Para ejecutar las pruebas unitarias usa el script `tests.sh` alojado en la carpeta UniTest si estás en Linux o Mac.
+Para ejecutar las pruebas unitarias usa el script `tests.sh` alojado en la carpeta UniTest si estás en Linux o Mac. Si estás en Windows, debes usar el archivo `tests.ps1`.
 
 ```bash
- UnitTest/tests.sh
+ UnitTest/tests.sh o UnitTest/tests.ps1
  Seleccione una opción:
  1. UnitTest en Máquina Virtual (VM)
  2. UnitTest en Docker
@@ -186,10 +186,10 @@ También puedes seleccionar una de estos dos opciones desde el script para no pa
 
 ## Pruebas de integración e infraestructura
 
-Para ejecutar todas las pruebas de integración usa el script `tests.sh` opción 3:
+Para ejecutar todas las pruebas de integración usa el script `tests.sh` o si estás en Windows, debes usar el archivo `tests.ps1` opción 3:
 
 ```bash
- UnitTest/tests.sh
+ UnitTest/tests.sh o UnitTest/tests.ps1
  Seleccione una opción:
  1. UnitTest en Máquina Virtual (VM)
  2. UnitTest en Docker
@@ -216,3 +216,5 @@ Si deseas ejecutar una a una las pruebas de integración e infraestructura enton
 - ChefSpec: https://docs.chef.io/workstation/chefspec/
 - ServerSpec: https://serverspec.org/resource_types.html
 - Test Kitchen: https://docs.chef.io/workstation/kitchen/
+
+Repositorio base: https://github.com/OscarJimenezFlores/Chef_Vagrant_Wp
